@@ -30,6 +30,7 @@ makes the ownership of the Unix socket read/writable by the `docker` group.
 To create the `docker` group and add your user:
 
 1.  Create the `docker` group.
+
     ```bash
     $ sudo groupadd docker
     ```
